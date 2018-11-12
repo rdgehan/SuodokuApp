@@ -1,0 +1,19 @@
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:id="@+id/this_pref"
+        android:defaultValue="2"
+        android:entries="@array/pref_difficulty_levels"
+        android:entryValues="@array/pref_example_difficulty_values"
+        android:key="list_preference_difficulties"
+        android:title="Choose a difficulty" />
+    <ListPreference
+        android:defaultValue="9"
+        android:entries="@array/pref_board_sizes"
+        android:entryValues="@array/pref_board_sizes_values"
+        android:key="list_preference_sizes"
+        android:title="Choose a board size" />
+
+
+</PreferenceScreen>

@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.utep.cs.cs4330.sudoku.MainActivity"
+    android:id="@+id/toolbar">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/sharingicon"
+        android:orderInCategory="100"
+        android:title="Share"
+        app:showAsAction="always" />
+</menu>

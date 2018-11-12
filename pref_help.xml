@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="hints_preference"
+        android:title="Enable Hints"
+        android:summary="Turn this option on or off to display permitted numbers for empty squares." />
+</PreferenceScreen>
